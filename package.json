@@ -1,0 +1,24 @@
+{
+  "name": "sdcli",
+  "version": "1.0.0",
+  "description": "A command-line interface for the non-official SpanishDict API (sdapi)",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walz0/sdcli.git"
+  },
+  "author": "Aidan Walz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walz0/sdcli/issues"
+  },
+  "homepage": "https://github.com/walz0/sdcli#readme",
+  "dependencies": {
+    "hotkeys-js": "^3.10.1",
+    "prompt-sync": "^4.2.0",
+    "sdapi": "^0.2.3"
+  }
+}
